@@ -1,0 +1,11 @@
+{
+  "name": "nimbus-calculator",
+  "version": "1.0.0",
+  "description": "A cloud-based calculator web app",
+  "scripts": {
+    "build": "echo 'No build process needed for static site'"
+  },
+  "keywords": ["calculator", "azure", "static-web-app"],
+  "author": "Your Name",
+  "license": "MIT"
+}
