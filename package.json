@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A cloud-based calculator web app",
   "scripts": {
-    "build": "echo 'No build process needed for static site'"
+    "build": "mkdir -p build && cp -r *.html *.css *.js build/ || echo 'No files to copy'"
   },
   "keywords": ["calculator", "azure", "static-web-app"],
   "author": "Your Name",
