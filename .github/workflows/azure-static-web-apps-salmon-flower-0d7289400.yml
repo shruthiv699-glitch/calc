@@ -40,7 +40,7 @@ jobs:
           action: "upload"
           app_location: "/"
           api_location: ""
-          output_location: "build"  # ← CHANGED TO "build"
+          output_location: "/"  # ← CHANGED TO "build"
           app_build_command: "npm run build"  # ← CHANGED TO USE NPM BUILD
           github_id_token: ${{ steps.idtoken.outputs.result }}
 
@@ -54,3 +54,4 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           action: "close"
+
